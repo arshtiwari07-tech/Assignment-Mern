@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tech Club events and student registration">
+    <meta name="author" content="Arsh Tiwari">
+    <title>Tech Club - Home</title>
+
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="about.html">About</a> |
+        <a href="register.html">Register</a> |
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <h1>Tech Club</h1>
+    <p>Welcome to our college Tech Club!</p>
+
+    <h2>Upcoming Events</h2>
+
+    <table border="1">
+        <caption>Club Events</caption>
+
+        <thead>
+            <tr>
+                <th>Event</th>
+                <th>Date</th>
+                <th>Venue</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>HTML Workshop</td>
+                <td>25 Dec</td>
+                <td>Lab 8</td>
+            </tr>
+            <tr>
+                <td>Hackathon Hack Bhoomi </td>
+                <td> 8 to 10 Nov</td>
+                <td>Seminar Hall 1 and 2</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="3">Total events: 2</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <h2>Register</h2>
+
+    <form action="#" method="post">
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"
+               placeholder="Your name" required>
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br><br>
+
+        <label for="dob">Date of birth:</label>
+        <input type="date" id="dob" name="dob">
+        <br><br>
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone">
+        <br><br>
+
+        <span>Gender:</span>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label>
+        <br><br>
+
+        <span>Interests:</span>
+        <input type="checkbox" id="web" name="interests" value="Web">
+        <label for="web">Web</label>
+
+        <input type="checkbox" id="dsa" name="interests" value="DSA">
+        <label for="dsa">DSA</label>
+        <br><br>
+
+        <label for="branch">Branch:</label>
+        <select id="branch" name="branch">
+            <option value="CSE">CSE</option>
+            <option value="IT">IT</option>
+            <option value="ECE">ECE</option>
+            <option value="ME">ME</option>
+        </select>
+        <br><br>
+
+        <label for="message">Why do you want to join?</label>
+        <br>
+        <textarea id="message" name="message"
+                  rows="4" cols="35"></textarea>
+        <br><br>
+
+        <button type="submit">Submit Registration</button>
+        <button type="reset">Reset</button>
+
+
+</body>
+</html>
