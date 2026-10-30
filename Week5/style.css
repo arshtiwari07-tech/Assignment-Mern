@@ -1,0 +1,26 @@
+* Universal selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Element selector */
+h1 {
+    color: #243b53;
+}
+
+/* Class selector */
+.card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+/* ID selector */
+#hero {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e0f2fe;}
