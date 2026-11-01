@@ -54,3 +54,74 @@ button {
     margin-top: 20px;
     cursor: pointer;
 }
+
+
+/* Root variables */
+:root {
+    --primary-color: #2563eb;
+    --secondary-color: #e0f2fe;
+    --heading-color: #1e3a8a;
+    --text-color: #475569;
+    --card-color: #ffffff;
+    --spacing: 30px;
+}
+
+/* Universal selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--secondary-color);
+}
+
+/* ID selector */
+#hero {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Class selector */
+.card {
+    background-color: var(--card-color);
+    padding: var(--spacing);
+    border-radius: 15px;
+    text-align: center;
+    max-width: 500px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Element selector */
+h1 {
+    font-size: 32px;
+    color: var(--heading-color);
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: var(--text-color);
+}
+
+button {
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 16px;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.85;
+}
