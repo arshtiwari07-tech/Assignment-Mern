@@ -100,3 +100,16 @@ h2, p {
 .pink-card .avatar {
     background-color: #ed4c91;
 }
+
+
+.bio {
+    height: 85px;
+    overflow: auto;
+
+    padding: 10px;
+    border: 1px solid lightgray;
+
+    text-align: left;
+    font-size: 14px;
+    line-height: 1.4;
+}
