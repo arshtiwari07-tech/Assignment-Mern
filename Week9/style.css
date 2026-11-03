@@ -141,3 +141,34 @@ img {
 .card p {
     font-size: 1rem;
 }
+
+
+
+/* Navbar using Flexbox */
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Hero section using Grid */
+.hero {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+}
+
+/* Features section using Grid */
+.feature-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+}
+
+/* Feature cards */
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
