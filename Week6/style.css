@@ -113,3 +113,37 @@ h2, p {
     font-size: 14px;
     line-height: 1.4;
 }
+
+
+.top-bar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+    background-color: #14233f;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Fixed + Button */
+
+.add-button {
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+
+    width: 55px;
+    height: 55px;
+
+    border: none;
+    border-radius: 50%;
+
+    background-color: #ffb800;
+    color: black;
+
+    font-size: 28px;
+    cursor: pointer;
+
+    z-index: 1100;
+}
