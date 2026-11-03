@@ -107,9 +107,10 @@ img {
     max-width: 50%;
     height: auto;
     display: block;
+    margin: 0 auto;
 }
 
-/* Responsive typography using rem */
+
 .logo {
     font-size: 1.5rem;
 }
@@ -173,7 +174,7 @@ img {
     justify-content: center;
 }
 
-/* Step 9.4: Tablet layout - 768px and above */
+
 
 @media screen and (min-width: 768px) {
 
